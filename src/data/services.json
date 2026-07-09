@@ -1,0 +1,58 @@
+[
+  {
+    "id": "root-canal",
+    "icon": "tooth-root",
+    "name": "Root Canal Treatment",
+    "description": "Painless, precise root canal therapy to save infected teeth, performed with modern numbing techniques and clear step-by-step guidance.",
+    "featured": true
+  },
+  {
+    "id": "cleaning",
+    "icon": "sparkle-tooth",
+    "name": "Dental Cleaning",
+    "description": "Professional scaling and polishing to remove plaque and tartar, keeping your gums healthy and your smile bright.",
+    "featured": true
+  },
+  {
+    "id": "fillings",
+    "icon": "shield-tooth",
+    "name": "Fillings & Restorations",
+    "description": "Tooth-colored fillings that blend naturally with your smile while restoring strength and function.",
+    "featured": true
+  },
+  {
+    "id": "consultation",
+    "icon": "magnifier-tooth",
+    "name": "Dental Consultation",
+    "description": "A thorough check-up and honest advice on the right treatment path for your specific concern.",
+    "featured": true
+  },
+  {
+    "id": "emergency",
+    "icon": "alert-tooth",
+    "name": "Emergency / Tooth Pain",
+    "description": "Prompt care for sudden tooth pain, swelling, or dental injuries — because pain shouldn't have to wait.",
+    "featured": true
+  },
+  {
+    "id": "cosmetic",
+    "icon": "smile",
+    "name": "Cosmetic Dentistry",
+    "description": "Smile makeovers including whitening and shaping to help you feel confident about your smile.",
+    "featured": false
+  },
+  {
+    "id": "extraction",
+    "icon": "tooth-out",
+    "name": "Tooth Extraction",
+    "description": "Safe, gentle removal of damaged or problematic teeth with a focus on comfort and quick recovery.",
+    "featured": false
+  },
+  {
+    "id": "pediatric",
+    "icon": "kid-tooth",
+    "name": "Pediatric Dentistry",
+    "description": "Friendly, patient dental care designed to keep younger patients relaxed and smiling.",
+    "featured": false
+  }
+]

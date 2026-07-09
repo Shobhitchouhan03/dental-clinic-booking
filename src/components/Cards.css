@@ -1,0 +1,68 @@
+/* Service card */
+.service-card { padding: 30px 26px; height: 100%; }
+.service-card__icon {
+  width: 52px; height: 52px;
+  border-radius: 16px;
+  background: var(--color-primary-light);
+  color: var(--color-primary);
+  display: flex; align-items: center; justify-content: center;
+  margin-bottom: 18px;
+}
+.service-card h3 { font-size: 19px; margin-bottom: 8px; }
+.service-card p { font-size: 14.5px; }
+.service-card__link {
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--color-accent-dark);
+  display: inline-block;
+  margin-top: 8px;
+}
+.service-card--compact { padding: 22px; }
+
+/* Dentist card */
+.dentist-card { padding: 30px; text-align: center; }
+.dentist-card__photo {
+  width: 96px; height: 96px;
+  border-radius: 50%;
+  margin: 0 auto 16px;
+  background: var(--color-primary);
+  color: #fff;
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--font-display);
+  font-size: 30px;
+  font-weight: 600;
+  overflow: hidden;
+}
+.dentist-card__photo img { width: 100%; height: 100%; object-fit: cover; }
+.dentist-card h3 { margin-bottom: 2px; font-size: 20px; }
+.dentist-card__role { color: var(--color-accent-dark); font-weight: 600; font-size: 13.5px; margin-bottom: 6px; }
+.dentist-card__spec { font-size: 13.5px; color: var(--color-muted); font-weight: 600; margin: 8px 0 4px; }
+.dentist-card__bio { font-size: 14px; min-height: 66px; }
+.dentist-card__meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12.5px;
+  color: var(--color-ink-soft);
+  border-top: 1px dashed var(--color-line);
+  border-bottom: 1px dashed var(--color-line);
+  padding: 12px 0;
+  margin-bottom: 18px;
+  text-align: left;
+  gap: 10px;
+}
+.dentist-card__meta strong { display: block; color: var(--color-ink); }
+
+/* Testimonial card */
+.testimonial-card { padding: 28px; }
+.testimonial-card__text { font-family: var(--font-display); font-size: 17px; color: var(--color-ink); margin-top: 10px; }
+.testimonial-card__footer { display: flex; align-items: center; gap: 12px; margin-top: 18px; }
+.testimonial-card__avatar {
+  width: 40px; height: 40px;
+  border-radius: 50%;
+  background: var(--color-accent-light);
+  color: var(--color-accent-dark);
+  display: flex; align-items: center; justify-content: center;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+.testimonial-card__footer p { margin: 0; font-size: 13px; color: var(--color-muted); }

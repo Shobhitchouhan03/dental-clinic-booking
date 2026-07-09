@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Varun Yadav",
+    "meta": "Local Guide · 13 reviews",
+    "rating": 5,
+    "text": "One month after my root canal, I'm really satisfied with the results. The whole process was smooth and painless, and Dr. Simran explained every step clearly."
+  },
+  {
+    "id": 2,
+    "name": "Dr. Vineet Bhardwaj",
+    "meta": "Local Guide · 27 reviews",
+    "rating": 5,
+    "text": "Dr. Simran is extremely professional and gentle, and explains everything before starting treatment. The clinic is neat, hygienic, and comfortable."
+  },
+  {
+    "id": 3,
+    "name": "Tanya Sahai",
+    "meta": "3 reviews",
+    "rating": 5,
+    "text": "I visited for tooth pain — Dr. Simran was professional and polite, and the treatment itself was smooth and painless. Highly recommended."
+  },
+  {
+    "id": 4,
+    "name": "Swati Dahiya",
+    "meta": "4 reviews",
+    "rating": 5,
+    "text": "Excellent service and a very professional dentist. The treatment was smooth and comfortable throughout."
+  },
+  {
+    "id": 5,
+    "name": "Pooja Yadav",
+    "meta": "1 review",
+    "rating": 5,
+    "text": "Very professional environment with great hygiene standards. My filling treatment was painless from start to finish."
+  },
+  {
+    "id": 6,
+    "name": "Mojabul Rahman",
+    "meta": "Local Guide · 52 reviews",
+    "rating": 5,
+    "text": "A very good dentist who performs treatments carefully and always takes the time to explain things thoroughly."
+  }
+]

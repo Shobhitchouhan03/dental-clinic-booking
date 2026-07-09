@@ -1,0 +1,42 @@
+.float-btn {
+  position: fixed;
+  right: 24px;
+  z-index: 90;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  box-shadow: var(--shadow-md);
+  opacity: 0;
+  transform: translateY(12px) scale(0.9);
+  pointer-events: none;
+  transition: opacity 0.25s ease, transform 0.25s ease, background 0.2s ease;
+}
+.float-btn--visible {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  pointer-events: auto;
+}
+
+.float-btn--top {
+  bottom: 24px;
+  background: var(--color-primary);
+  color: #fff;
+}
+.float-btn--top:hover { background: var(--color-primary-dark); }
+
+.float-btn--whatsapp {
+  bottom: 88px;
+  background: #25d366;
+  color: #fff;
+}
+.float-btn--whatsapp:hover { background: #1ebd5a; }
+
+@media (max-width: 560px) {
+  .float-btn { right: 16px; width: 48px; height: 48px; }
+  .float-btn--top { bottom: 16px; }
+  .float-btn--whatsapp { bottom: 74px; }
+}

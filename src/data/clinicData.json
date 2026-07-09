@@ -1,0 +1,43 @@
+{
+  "clinicName": "Smile by Simran",
+  "clinicNameLocal": "स्माइल बाय सिमरन",
+  "tagline": "Gentle, Modern Dental Care for Every Smile",
+  "shortDescription": "A women-owned dental clinic in Nangloi, New Delhi, focused on painless treatments, clear communication, and a clean, comfortable clinic experience.",
+  "rating": 4.8,
+  "reviewCount": 12,
+  "womenOwned": true,
+  "logoText": "Smile",
+  "logoAccent": "Simran",
+  "phone": "+91-90000-00000",
+  "phoneDisplay": "+91 90000 00000",
+  "whatsapp": "919000000000",
+  "email": "hello@smilebysimran.example",
+  "address": {
+    "line1": "Lower Ground Floor, Plot No 14, Najafgarh Rd",
+    "line2": "Opp. Water Tank, Ahir Mohalla, Naresh Park Extension, Nangloi",
+    "city": "New Delhi, Delhi, 110041",
+    "mapsUrl": "https://www.google.com/maps/place/Smile+by+Simran/@28.6742736,77.0655161,1154m/data=!3m1!1e3!4m10!1m2!2m1!1sdentist!3m6!1s0x390d0575337c3b21:0xf4bb202e51090c74!8m2!3d28.6771942!4d77.06365",
+    "mapEmbedSrc": "https://www.google.com/maps?q=Smile+by+Simran+Nangloi+New+Delhi&output=embed"
+  },
+  "hours": [
+    { "day": "Monday - Saturday", "time": "4:00 PM - 9:00 PM" },
+    { "day": "Sunday", "time": "By appointment" }
+  ],
+  "hoursNote": "Please confirm exact closing time and Sunday availability with the clinic.",
+  "social": {
+    "instagram": "https://instagram.com/",
+    "facebook": "https://facebook.com/",
+    "google": "https://www.google.com/maps/place/Smile+by+Simran"
+  },
+  "emailjs": {
+    "serviceId": "YOUR_EMAILJS_SERVICE_ID",
+    "templateId": "YOUR_EMAILJS_TEMPLATE_ID",
+    "publicKey": "YOUR_EMAILJS_PUBLIC_KEY"
+  },
+  "stats": [
+    { "label": "Patient Rating", "value": "4.8/5" },
+    { "label": "Happy Patients", "value": "1,000+" },
+    { "label": "Years Serving Nangloi", "value": "5+" },
+    { "label": "Treatments Offered", "value": "12+" }
+  ]
+}

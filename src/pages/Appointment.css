@@ -1,0 +1,83 @@
+.appointment-grid {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr;
+  gap: 32px;
+  align-items: flex-start;
+}
+
+.appointment-form { padding: 36px; }
+.appointment-form h2 { font-size: 22px; margin-bottom: 24px; }
+
+.form-row { margin-bottom: 18px; }
+.form-row--split { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+
+.form-row label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 13.5px;
+  font-weight: 700;
+  color: var(--color-ink);
+}
+.form-row label span { color: var(--color-accent); margin-left: 2px; }
+
+.form-row input,
+.form-row select,
+.form-row textarea {
+  font-family: var(--font-body);
+  font-size: 14.5px;
+  font-weight: 400;
+  padding: 12px 14px;
+  border: 1.5px solid var(--color-line);
+  border-radius: var(--radius-sm);
+  background: #fff;
+  color: var(--color-ink);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.form-row input:focus,
+.form-row select:focus,
+.form-row textarea:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px var(--color-primary-light);
+}
+.form-row textarea { resize: vertical; min-height: 90px; }
+
+.form-alert {
+  font-size: 13.5px;
+  font-weight: 600;
+  padding: 12px 14px;
+  border-radius: var(--radius-sm);
+  margin-bottom: 16px;
+}
+.form-alert--error { background: #fdecea; color: var(--color-error); }
+
+.form-note { text-align: center; font-size: 13px; margin: 16px 0 0; }
+.form-note a { color: var(--color-primary); font-weight: 700; }
+
+/* Summary sidebar */
+.appointment-summary { display: flex; flex-direction: column; gap: 20px; position: sticky; top: 100px; }
+.appointment-summary__card { padding: 26px; }
+.appointment-summary__card h3 { font-size: 16px; margin-bottom: 16px; }
+.summary-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  color: var(--color-ink-soft);
+  padding: 10px 0;
+  border-bottom: 1px dashed var(--color-line);
+}
+.summary-row svg { color: var(--color-accent); flex-shrink: 0; }
+.appointment-summary__note { font-size: 12.5px; margin: 14px 0 0; }
+.summary-hours-row { display: flex; justify-content: space-between; font-size: 13.5px; margin-bottom: 8px; }
+.summary-hours-row strong { color: var(--color-primary); }
+
+@media (max-width: 980px) {
+  .appointment-grid { grid-template-columns: 1fr; }
+  .appointment-summary { position: static; }
+}
+@media (max-width: 560px) {
+  .appointment-form { padding: 24px 20px; }
+  .form-row--split { grid-template-columns: 1fr; }
+}

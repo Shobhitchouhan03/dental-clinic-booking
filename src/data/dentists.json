@@ -1,0 +1,28 @@
+[
+  {
+    "id": "dr-simran",
+    "name": "Dr. Simran",
+    "initials": "DS",
+    "role": "Lead Dentist & Clinic Founder",
+    "specialization": "General & Cosmetic Dentistry, Root Canal Treatment",
+    "experience": "5+ years",
+    "rating": 4.8,
+    "bio": "Founder of Smile by Simran, known for calm chairside manner, clear step-by-step explanations, and gentle, low-pain treatment techniques.",
+    "availableFrom": "Today, 4:00 PM",
+    "workingHours": "4:00 PM - 9:00 PM",
+    "photo": null
+  },
+  {
+    "id": "dr-associate-1",
+    "name": "Dr. Associate Dentist",
+    "initials": "AD",
+    "role": "General Dentist",
+    "specialization": "Preventive Care & Dental Cleaning",
+    "experience": "Add experience",
+    "rating": 4.7,
+    "bio": "Replace this placeholder profile with your second dentist's real details, or remove this card if Dr. Simran is the only practitioner.",
+    "availableFrom": "Add availability",
+    "workingHours": "Add hours",
+    "photo": null
+  }
+]

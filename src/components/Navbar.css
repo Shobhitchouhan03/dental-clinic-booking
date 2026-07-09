@@ -1,0 +1,104 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(251, 250, 247, 0.85);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+.navbar--scrolled {
+  border-color: var(--color-line);
+  box-shadow: 0 4px 20px rgba(15, 61, 62, 0.06);
+}
+
+.navbar__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  height: 76px;
+}
+
+.navbar__logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--color-primary);
+  white-space: nowrap;
+}
+.navbar__logo em { color: var(--color-accent); font-style: normal; }
+.navbar__logo-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: var(--color-primary-light);
+  color: var(--color-primary);
+}
+
+.navbar__links--desktop {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex: 1;
+  justify-content: center;
+}
+
+.navbar__link {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--color-ink-soft);
+  padding: 8px 2px;
+  position: relative;
+}
+.navbar__link::after {
+  content: "";
+  position: absolute;
+  left: 0; right: 0; bottom: -2px;
+  height: 2px;
+  background: var(--color-accent);
+  transform: scaleX(0);
+  transition: transform 0.2s ease;
+}
+.navbar__link:hover::after, .navbar__link--active::after { transform: scaleX(1); }
+.navbar__link--active { color: var(--color-primary); }
+
+.navbar__cta { flex-shrink: 0; }
+
+.navbar__toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: var(--color-primary);
+  padding: 6px;
+}
+
+.navbar__mobile {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  border-top: 1px solid transparent;
+}
+.navbar__mobile--open {
+  max-height: 420px;
+  border-top-color: var(--color-line);
+}
+.navbar__links--mobile {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 16px 24px 24px;
+}
+.navbar__links--mobile .navbar__link { padding: 10px 4px; }
+.navbar__links--mobile .btn { margin-top: 10px; }
+
+@media (max-width: 900px) {
+  .navbar__links--desktop, .navbar__cta { display: none; }
+  .navbar__toggle { display: inline-flex; }
+}
