@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/dental-clinic-booking/static/css/main.5d0e011a.css",
-    "main.js": "/dental-clinic-booking/static/js/main.74302ec1.js",
+    "main.js": "/dental-clinic-booking/static/js/main.3fd1b78b.js",
     "index.html": "/dental-clinic-booking/index.html",
     "main.5d0e011a.css.map": "/dental-clinic-booking/static/css/main.5d0e011a.css.map",
-    "main.74302ec1.js.map": "/dental-clinic-booking/static/js/main.74302ec1.js.map"
+    "main.3fd1b78b.js.map": "/dental-clinic-booking/static/js/main.3fd1b78b.js.map"
   },
   "entrypoints": [
     "static/css/main.5d0e011a.css",
-    "static/js/main.74302ec1.js"
+    "static/js/main.3fd1b78b.js"
   ]
 }
