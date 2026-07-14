@@ -26,7 +26,7 @@ function ScrollManager() {
 
 function App() {
   return (
-    <BrowserRouter basename="/dental-clinic-booking">
+    <BrowserRouter>
       <ScrollManager />
       <Navbar />
       <main>
